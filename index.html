@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">    
+    <title>Youtube-clone</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__logo">
+            <i class="fab fa-youtube"></i>
+            <span class="header__logo-title">Youtube</span>
+        </div>
+        <div class="header__icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="video/video.mp4"></video>
+    </section>
+    
+
+    <div class="infoAndUpNext">
+        <!-- Video Info -->
+    <section class="video-info">
+        <div class="video-info__metadata">
+            <ul class="video-info__metadata-hashtags">
+                <li>#결혼식장</li>
+                <li>#축가</li>
+                <li>#일반인</li>
+            </ul>
+            <div class="video-info__metadata--title">
+                <span class="video-info__metadata--title-text clamp">
+                    하객들도 깜짝 놀란 일반인의 소름돋는 결혼식 축가 '이젠 나만 믿어요'(임영웅) | 프론트엔드 
+                    개발자 입문 : HTTML, CSS, Javascript 연습 유투브 클론코딩해보기
+                </span>
+                <button class="video-info__metadata--title-moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>               
+                
+            </div>
+            <div class="video-info__metadata--views">
+                <span>1M views 1 month ago</span>
+            </div>
+        </div>
+            <ul class="video-info__actions">
+                <li><button><i class="active fas fa-thumbs-up"></i><span>1k</span></button></li>
+                <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+                <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+                <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+                <li><button><i class="fas fa-flag"></i><span>Report</span></button></li>
+            </ul>
+        <div class="video-info__channel">
+            <div class="video-info__channel--metadata">
+                <img src="image/avatar.jpeg" alt="">
+                <div class="video-info__chaneel--metadata-info">
+                    <span class="video-info__chaneel--metadata-info-name">Jinyoung-Kim</span>
+                    <span class="video-info__chaneel--metadata-info-subs">1M subscribers</span>
+                </div>
+            </div> 
+            <button class="video-info__chaneel--metadata-subBtn">subscribe</button>
+        </div>
+    </section>
+    <!-- Upnext -->
+    <section class="video-upnext">
+        <span class="video-upnext__title">Up next</ㄴ>
+        <ul>
+            <li class="video-upnext__item">
+                <div class="video-upnext__item--img"><img src="image/shichu.png" alt=""></div>
+                <div class="video-upnext__item--info">
+                    <span class="video-upnext__item--info-title">시츄 성격과 특성을 제대로 알고 키우기 | 프론트엔드 
+                        개발자 입문 : HTTML, CSS, Javascript 연습 유투브 클론코딩해보기</span>
+                    <span class="video-upnext__item--info-name">Jinyoung-Kim</span>
+                    <span class="video-upnext__item--info-views">82K views</span>
+                </div>
+                <button class="video-upnext__item--moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="video-upnext__item">
+                <div class="video-upnext__item--img"><img src="image/front-end.png" alt=""></div>
+                <div class="video-upnext__item--info">
+                    <span class="video-upnext__item--info-title">개발자 17년차가 말하는 프론트엔드의 과거, 현재 그리고 미래 | 프론트엔드 
+                        개발자 입문 : HTTML, CSS, Javascript 연습 유투브 클론코딩해보기</span>
+                    <span class="video-upnext__item--info-name">Jinyoung-Kim</span>
+                    <span class="video-upnext__item--info-views">26K views</span>
+                </div>
+                <button class="video-upnext__item--moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+    </section>
+    </div>    
+</body>
+<script src="https://kit.fontawesome.com/7268dad3ac.js" crossorigin="anonymous"></script>
+<script src="main.js" defer></script>
+</html>
