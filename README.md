@@ -1,8 +1,10 @@
-## #YouTube Frontend Clone
+#YouTube Frontend Clone
+
+---
 
 HTML,CSS 공부하기 위한 프로젝트로 기본적인 프론트엔드 개념은 물론 처음으로 "반응형" 웹에 대한 접근을 해보았다. 일정 크기로 작아지면 컨텐츠의 배열이 바뀐다.
 
-####[접속해보기](https://jin0kim326.github.io/frontend-youtube-clone/) 👈
+#### [접속해보기](https://jin0kim326.github.io/frontend-youtube-clone/) 👈
 
 ## 💪Point
 
